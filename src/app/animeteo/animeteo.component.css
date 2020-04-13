@@ -1,0 +1,90 @@
+#animeteo{
+    width: 100%;
+}
+
+.titre{
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+.maq img{
+    width: 80%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 35px;
+}
+small{
+    font-style: italic;
+    color: gray;
+    padding-bottom: 20px;
+}
+.maq{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding:10px;
+    margin-left:70px;
+    margin-right:100px;
+    text-align: justify;
+   
+}
+
+.text p{
+    font-family: 'Roboto Mono', monospace;
+    color: gray;
+}
+
+.logo{
+    margin-right: 70px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 70px;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info p{
+    color: gray;
+}
+
+.textinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    align-self: flex-end;
+    padding-top: 20px;
+
+}
+
+input{
+    background:none ;
+    border-radius: 10px;
+    color:#404040;
+    border: 1px solid gray;
+    width: 135px;
+    height: 40px;
+    transition: 0.2s ease;
+    font-size: 15px;
+    
+  }
+
+  input:hover{
+    background:linear-gradient(-225deg,#ffb09f,#ffb39f 10%, #ffba9f 80%);
+    color:white;
+    border: none;
+  }

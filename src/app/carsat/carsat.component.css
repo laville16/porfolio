@@ -1,0 +1,63 @@
+#carsat{
+    width: 100%;
+}
+
+.titre{
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 40px;
+
+}
+
+
+.maq img{
+    width: 80%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+
+    
+}
+small{
+    font-style: italic;
+    color: gray;
+}
+.maq{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    padding:10px;
+    margin-left:70px;
+    margin-right:100px;
+    text-align: justify;
+   
+}
+
+.text p{
+    font-family: 'Roboto Mono', monospace;
+    color: gray;
+}
+
+.logo{
+    margin-right: 70px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 70px;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.info p{
+    color: gray;
+}

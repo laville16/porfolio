@@ -1,0 +1,236 @@
+
+
+.contains{
+  background-color: #fafafa;
+  width: 99%;
+  margin: auto;
+  
+}
+
+.center{
+  text-align: center;
+  width: 300px;
+}
+
+.titre img{
+  width: 30px;
+  height: 40px;
+  padding:20px;
+}
+
+#after {
+  width: 45px;
+  height: 50px;
+}
+
+.titre{
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 50px;
+
+}
+
+
+.flex{
+  display: flex;
+  justify-content:space-evenly;
+
+}
+
+.center img, .ci img{
+  width: 60px;
+  border-radius: 50%;
+}
+
+#card1{
+  border:1px solid #d9d9d9;
+  background-color: #d9d9d9;
+  width: 250px;
+  border-radius: 15px;
+  padding:10px;
+}
+
+#date1{
+  width: 250px;
+  margin-left:20px;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.lien {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #d9d9d9;
+}
+
+.lienhaut {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #d9d9d9;
+}
+
+.carte{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+#card2{
+  border:1px solid #d9d9d9;
+  background-color: #d9d9d9;
+  width: 200px;
+  border-radius: 15px;
+  padding:10px;
+}
+
+#date2{
+  width: 200px;
+  text-align: center;
+}
+
+.timeline{
+ width: 70%;
+ margin-bottom: 30px;
+}
+
+
+.date, .bulle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #7488a3;
+  color: #7488a3;
+  overflow: visible;
+  text-align: center;
+  margin: 2px;
+  margin-top: 10px;
+}
+
+
+.hobbies{
+  margin-bottom: 30px;
+  margin-top: 15px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ci{
+  display: inline-flex;
+  height: 60px;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.item img {
+  width: 50px;
+}
+
+.item{
+  text-align: center;
+}
+
+.edu{
+  display: flex;
+  justify-content: center;
+  margin-bottom:15px;
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+
+  margin-top: 40px;
+  height: 300px;
+  width: 25%;
+  transition: 0.6s all ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* I used background url to allow me to change the height and width without needing extra css */
+
+.cardTop {
+  transition: 0.4s all ease;
+  height: 65%;
+  
+}
+
+#judo{
+  background: url("/assets/image/judojpg.jpg");
+}
+
+#piano{
+  background: url("/assets/image/pianojpg.jpg")
+    no-repeat;
+}
+
+.cardBottom {
+  height: 35%;
+  text-wrap: normal;
+  transition: 0.4s all ease;
+}
+
+
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.cardInfo {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: orange;
+}
+
+/* Hidding the entire so anything we put in will only show on hover */
+
+.cardHoverText {
+  visibility: hidden;
+  padding-left: 20px;
+}
+
+/* Hover affects */
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Using className + hover followed by child element allows you to change child elements when parent is hovered */
+
+.card:hover .cardHoverText {
+  visibility: visible;
+  transition: 0.4s all ease;
+  transition-delay: 0.1999s;
+}
+
+.card:hover .cardBottom {
+  transition: 0.4s all ease;
+  height: 65%;
+  opacity: 1;
+}
+
+.card:hover .cardTop {
+  height: 35%;
+  transition: 0.4s all ease;
+}
+
+
+
